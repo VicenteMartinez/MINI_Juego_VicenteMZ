@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/poqueball"
+    tools:context="mx.edu.ittepic.mini_u3_theflowers.Main2Activity">
+
+    <Button
+        android:background="@drawable/shape"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comenzar"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"
+        android:onClick="vicente2"/>
+    <Button
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorpresa"
+        android:textSize="20dp"
+        android:onClick="onStartBtnClick"/>
+    <ImageView
+        android:background="@drawable/frame_00"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:id="@+id/animation"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        />
+
+</LinearLayout>

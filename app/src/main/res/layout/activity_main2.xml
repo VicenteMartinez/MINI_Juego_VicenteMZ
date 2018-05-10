@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+tools:context="mx.edu.ittepic.mini_u3_theflowers.Main2Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        android:src="@drawable/logopo"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:onClick="playpancho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comenzar"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/jugarr"/>
+        <ImageView
+            android:onClick="closepancho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/salir"
+            android:src="@drawable/salir"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/acerca"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/acerca"/>
+
+    </LinearLayout>
+</LinearLayout>
